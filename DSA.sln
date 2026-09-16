@@ -1,0 +1,36 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labs", "Labs", "{B313BFE1-EBAD-4893-9818-F2CCA4398B4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab01", "Lab01", "{E17A5401-6E7F-4EF6-871E-A3517CC2DABE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab01_Task01_BinarySearch", "Labs\Lab01\Task01_BinarySearch\Lab01_Task01_BinarySearch.csproj", "{9CC528D5-22BA-42DE-822C-0EFF80EE0C05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab01_Task02_StudentGuesser", "Labs\Lab01\Task02_StudentGuesser\Lab01_Task02_StudentGuesser.csproj", "{CABE7F91-886D-4E09-97F7-B59B47CC756C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CC528D5-22BA-42DE-822C-0EFF80EE0C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC528D5-22BA-42DE-822C-0EFF80EE0C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC528D5-22BA-42DE-822C-0EFF80EE0C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC528D5-22BA-42DE-822C-0EFF80EE0C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CABE7F91-886D-4E09-97F7-B59B47CC756C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABE7F91-886D-4E09-97F7-B59B47CC756C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABE7F91-886D-4E09-97F7-B59B47CC756C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABE7F91-886D-4E09-97F7-B59B47CC756C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E17A5401-6E7F-4EF6-871E-A3517CC2DABE} = {B313BFE1-EBAD-4893-9818-F2CCA4398B4F}
+		{9CC528D5-22BA-42DE-822C-0EFF80EE0C05} = {E17A5401-6E7F-4EF6-871E-A3517CC2DABE}
+		{CABE7F91-886D-4E09-97F7-B59B47CC756C} = {E17A5401-6E7F-4EF6-871E-A3517CC2DABE}
+	EndGlobalSection
+EndGlobal
